@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.main-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-game {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 20px;
+    border: 2px solid green;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: green;
+}
+
+button:hover {
+    color: teal;
+    border: 3px solid teal;
+    font-size: large;
+}
